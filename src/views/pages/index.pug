@@ -1,0 +1,14 @@
+//- Extend a layout, or write your own HTML.
+extends ../layouts/base.pug
+
+//- Set up your page data, like
+//- titles, and other meta information.
+block data 
+    -
+        var page = {
+            title: "Alaska | Static-site Boilerplate",
+            slug: "home",
+        };
+
+//- Write your HTML under here.
+block main
