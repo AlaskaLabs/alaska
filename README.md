@@ -29,7 +29,29 @@ Alaska uses efficient technology that's similar to what you're used to.
 
 ### Running Alaska
 
+Running Alaska is quite simple. You just install all the `npm` dependencies and you're good to go. 
+
+But if you need some in-depth guidance, I'll hand it off to Poh, a friendly Polar Bear that will guide you on your journey to building in Alaska.
+
+🐻‍❄️ `LET'S GO!!!`
+
+Chill, Poh. They want instructions, not hype.
+
+🐻‍❄️ `Shut up. YOU! Let's go...`
+
 #### Requirements
+
+🐻‍❄️ `If you want to do any running in Alaska, you have to prepare. And I'm not talking about warm clothes and water. I'm taking about N-P-M ᵐᵒᵗʰᵉʳᶠᵘᶜᵏᵉʳ`
+
+Language, Poh!
+
+🐻‍❄️ `Ugh. ALRIGHT, here's what you need to have installed on your machine:`
+
+* NodeJS
+* NPM
+* Yarn _(Optional)_
+
+
 
 #### Installing
 
