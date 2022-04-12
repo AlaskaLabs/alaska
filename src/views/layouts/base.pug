@@ -1,0 +1,34 @@
+doctype html
+html(lang="en")
+    block data
+        //- Sets up your page data, like titles, url, etc.
+        - 
+            var page = {
+                title: "Base Layout",
+                slug: "base",
+            };
+
+    //- Includes the Head section of the HTML Page.
+    include ../_includes/head.pug
+
+    body(class="page-"+page.slug)
+        block header
+            //- Includes the Header component with the navigation.
+            //- You can replace this when you extend the layout 
+            //- if you need another version of the header.
+            include ../components/header.pug
+        
+        block main
+            //- Add your elements here when you extend this layout.
+            h1= page.title
+
+        block footer 
+            //- Includes the Footer component with the navigation.
+            //- You can replace this when you extend the layout 
+            //- if you need another version of the footer.
+            include ../components/footer.pug
+
+        block scripts    
+            //- You can include more scripts when you extend this layout
+            //- by using `append` or `prepend`.
+            script(src="/js/magic.js") 
