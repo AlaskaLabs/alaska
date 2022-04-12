@@ -1,6 +1,6 @@
 # 🏔 Alaska | Static-site Boilerplate
 
-[![Open Source](https://badgen.net/badge/icon/Open%20Source?icon=github&label&color=black)](https://github.com/pixelsbyeryc/alaska)
+[![Open Source](https://badgen.net/badge/Open%20Source?icon=github&label&color=black)](https://github.com/pixelsbyeryc/alaska)
 [![License: CC0-1.0](https://badgen.net/badge/License%20/CC0/black?icon=false)](http://creativecommons.org/publicdomain/zero/1.0/)
 [![Buy me coffee](https://badgen.net/badge/icon/Tip%20me%20in%20ETH?icon=buymeacoffee&label&color=yellow)](https://etherscan.io/address/0x750889c704857f766420b14723Ecb8320EB8E9ab)
 
