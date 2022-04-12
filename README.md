@@ -25,6 +25,9 @@ Alaska uses efficient technology that's similar to what you're used to.
 2. [Build in Alaska](#build-in-alaska)
     1. [Structure](#structure)
     2. [Gulpfile](#gulpfile)
+3. [Coding with Poh 🐻‍❄️](#coding-with-poh-🐻‍❄️)
+    1. [Poh's Guide to Pug](#writing-pug)
+    2. [Poh's Guide to Sass](#writing-sass)
 3. [License](#license) _(Read carefully)_
 
 ## Running Alaska
@@ -171,6 +174,8 @@ alaska
 
 > 🐻‍❄️ <br>Views folder will encompass all your Pug files — your HTML.
 >
+> If If you need help coding in Pug, check out [Poh's Guide](#coding-with-poh-🐻‍❄️).
+>
 > Let's go over them:
 
 * **Pages** `src/views/pages`: This is where your single pages will live (eg: Home Page). You can add as many pages as you want. All of the `.pug` files here will be sent to the `public` folder.
@@ -186,6 +191,8 @@ alaska
 > <br>But we encourage you to create more files and organize them as you wish.
 >
 > **Note:** Currently, Gulp only moves `sassy.sass` as `sassy.css` to the `public` folder. If you want to add another file to `public`, modify your [Gulpfile](#gulpfile).
+>
+> If If you need help coding in Sass, check out [Poh's Guide](#coding-with-poh-🐻‍❄️).
 
 #### Scripts `src/js`
 > 🐻‍❄️ <br>Scripts folder will encompass all your JS.
@@ -196,6 +203,56 @@ alaska
 > **Note:** Currently, Gulp only moves `magic.js` to the `public` folder. If you want to add another js file to `public`, modify your [Gulpfile](#gulpfile).
 
 ### Gulpfile
+> 🐻‍❄️ <br>Gulpfile uses functions to process specific files.
+>
+> I'm lazy to keep writing this doc right now, so here's the file: [gulpfile.js](https://github.com/pixelsbyeryc/alaska/blob/main/gulpfile.js).
+> <br>Check it out.
+
+
+## Coding with Poh 🐻‍❄️
+> 🐻‍❄️ <br>Coming soon!
+
+### Poh's Guide to Pug
+> 🐻‍❄️ <br>Coming soon!
+>
+> Here's a preview of how a Pug file turns into an HTML file:
+
+`file.pug`
+```
+body.class
+    header.header
+        nav.nav-links
+            a(href="/", target="_blank") Link Text
+
+    main.main
+        section.section
+            h1.heading.--huge Page Title
+            p This is a paragraph.
+```
+
+`file.html`
+```html
+<body class="class">
+    <header class="header">
+        <nav class="nav-links">
+            <a href="/" target="_blank">
+                Link Text
+            </a>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section">
+            <h1 class="heading --huge">
+                Title
+            </h1>
+            <p> This is a paragraph.
+        </section>
+    </main>
+</body>
+```
+
+### Poh's Guide to Sass
+> 🐻‍❄️ <br>Coming soon!
 
 ## License
 
