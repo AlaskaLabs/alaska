@@ -33,7 +33,7 @@ Running Alaska is quite simple. You just install all the `npm` dependencies and 
 
 But if you need some in-depth guidance, I'll hand it off to Poh, a friendly Polar Bear that will guide you on your journey to building in Alaska.
 
-🐻‍❄️ `LET'S GO!!!`
+🐻‍❄️ <br>**LET'S GO!!!**
 
 Chill, Poh. They want instructions, not hype.
 
