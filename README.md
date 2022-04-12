@@ -41,7 +41,9 @@ Chill, Poh. They want instructions, not hype.
 
 #### Requirements
 
-🐻‍❄️ `If you want to do any running in Alaska, you have to prepare. And I'm not talking about warm clothes and water. I'm taking about N-P-M ᵐᵒᵗʰᵉʳᶠᵘᶜᵏᵉʳ`
+> 🐻‍❄️ <br>If you want to do any running in Alaska, you have to prepare. 
+> <br>And I'm not talking about warm clothes and water. 
+> <br>I'm taking about N-P-M ᵐᵒᵗʰᵉʳᶠᵘᶜᵏᵉʳ`
 
 Language, Poh!
 
