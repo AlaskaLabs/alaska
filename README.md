@@ -1,7 +1,7 @@
 # 🏔 Alaska | Static-site Boilerplate
 
 [![Open Source](https://badgen.net/badge/icon/Open%20Source%20?icon=github&label&color=black)](https://github.com/pixelsbyeryc/alaska)
-[![License: CC0-1.0](https://badgen.net/badge/License%20/CC0/black?icon=false)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![License: CC0-1.0](https://badgen.net/badge/License%20/CC0/black?icon=false)](https://github.com/pixelsbyeryc/alaska/blob/main/LICENSE)
 [![Buy me coffee](https://badgen.net/badge/icon/Tip%20me%20in%20ETH?icon=buymeacoffee&label&color=yellow)](https://etherscan.io/address/0x750889c704857f766420b14723Ecb8320EB8E9ab)
 
 :zap: **Fastest way to build HTML and CSS static sites.**
@@ -258,4 +258,4 @@ body.class
 
 :stuck_out_tongue_closed_eyes: License to do whatever ~ᵗʰᵉ ᶠᵘᶜᵏ~ you want. **Go nuts.**
 
-[![forthebadge cc-0](http://ForTheBadge.com/images/badges/cc-0.svg)](http://ForTheBadge.com)
+[![cc-0](https://ForTheBadge.com/images/badges/cc-0.svg)](https://github.com/pixelsbyeryc/alaska/blob/main/LICENSE)
