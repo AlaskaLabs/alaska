@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+https://github.com/pixelsbyeryc/alaska.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "pixelsbyeryc",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/pixelsbyeryc/alaska/issues"
   },
@@ -21,6 +21,7 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
     "gulp-connect": "^5.7.0",
     "gulp-plumber": "^1.2.1",
     "gulp-pug": "^5.0.0",
