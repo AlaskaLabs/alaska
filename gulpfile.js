@@ -5,6 +5,7 @@ var gulp    = require('gulp'),
     plumber = require('gulp-plumber'),
     rename  = require('gulp-rename'),
     uglify  = require('gulp-uglify'),
+    clean   = require('gulp-clean'),
     autoprefixer = require('gulp-autoprefixer');
 
 function reload(done) {
@@ -14,6 +15,14 @@ function reload(done) {
         port: 8080
     });
     done();
+}
+
+function cleanPublic() {
+    return (
+        gulp.src('public/*', {read: false})
+        .pipe(plumber())
+        .pipe(clean())
+    );
 }
 
 function styles() {
@@ -61,6 +70,15 @@ function views() {
     )
 }
 
+function assets() {
+    return (
+        gulp.src(['src/assets/**/**/*'])
+        .pipe(plumber())
+        .pipe(gulp.dest('public/'))
+        .pipe(connect.reload())
+    )
+}
+
 function watchTask(done) {
     gulp.watch('src/sass/**/**/*.sass', styles);
     gulp.watch('src/js/**/*.js', scripts);
@@ -68,10 +86,12 @@ function watchTask(done) {
     done();
 }
 
-const watch = gulp.parallel(watchTask, reload);
-const build = gulp.series(gulp.parallel(styles, scripts, views));
+const build = gulp.series(gulp.parallel(cleanPublic, assets, styles, scripts, views));
+const watch = gulp.parallel(build, watchTask, reload);
 
 exports.reload = reload;
+exports.clean = cleanPublic;
+exports.assets = assets;
 exports.styles = styles;
 exports.scripts = scripts;
 exports.views = views;
